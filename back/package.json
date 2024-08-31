@@ -4,7 +4,7 @@
   "description": "backend api for skillhub",
   "main": "index.js",
   "scripts": {
-    "startback": "npx nodemon"
+    "startback": "npm prune && npx nodemon"
   },
   "author": "Katarina Galić, Ana Šimić",
   "license": "ISC",
