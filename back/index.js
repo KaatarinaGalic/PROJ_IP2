@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(cors({origin:"http://localhost:3000",credentials:true}))
 const port = 6969
 app.use(session({
-    secret: 'yYE)0P@|UUGeHZ6j.,Soz`Uo#{v@YQ', // Replace with your own secret key
+    secret: 'yYE)0P@|UUGeHZ6j.,Soz`Uo#{v@YQ', 
     resave: false,
     saveUninitialized: false,
     cookie: { secure: false } // Set `secure: true` if using HTTPS
