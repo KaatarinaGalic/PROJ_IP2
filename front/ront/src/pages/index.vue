@@ -18,7 +18,7 @@
   </v-container>
 
 
-  <br> <br> <br> <br> <br>
+  <br> <br>  
   <v-container class="hero-section py-5" fluid>
     <v-row align="center" justify="center" class="text-center">
       <v-col cols="12" md="8">
@@ -35,7 +35,7 @@
   </v-container>
 
     <!--Recenzije-->
-    <br> <br> <br> <br> <br>
+    <br> <br> 
   <v-carousel
     height="400"
     show-arrows="hover"
@@ -94,9 +94,10 @@
       </div>
     </div>
   </div>
-    <br><br><br><br>
+    <br><br>
     <!--Vijesti-->
     <div>
+      <h1 class="news-title">Tech Pulse: Real-Time Global News and Innovations</h1><br>
       <News/>
     </div>
 
@@ -331,6 +332,13 @@
   .statistic {
     margin-bottom: 20px;
   }
+}
+.news-title{
+  background: linear-gradient(90deg, #00c6ff 0%, #ff00c6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  text-align: center;
 }
 
 </style>
