@@ -144,7 +144,7 @@
       <v-pagination
         v-model="currentPage"
         :length="totalPages"
-        :total-visible="12"
+        :total-visible="3"
         class="my-4"
       ></v-pagination>
     </v-container>
@@ -162,7 +162,7 @@ export default {
       currentPage: 1,
       itemsPerPage: 9,
       projects: [],
-      staticTotalPages: 12,
+      staticTotalPages: 3,
       loginDialog: false,
       email: '',
       passwordChangeDialog: false,
