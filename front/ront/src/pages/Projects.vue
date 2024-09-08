@@ -88,7 +88,7 @@
         </v-card-text>
       </v-card>
     </v-dialog>
-    <!-- Prikaz kartica -->
+    <!-- Prikaz kartica --><br><br>
     <div class="d-flex flex-wrap justify-center">
       <v-card
         v-for="card in paginatedCards"
