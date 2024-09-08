@@ -80,7 +80,7 @@
         class="mx-auto"
         elevation="16"
         max-width="500"
-        title="Send a receipt"
+        title="Sign up"
       >
         <template v-slot:append>
           <v-btn icon="$close" variant="text" @click="dialog = false"></v-btn>
@@ -96,7 +96,7 @@
             size="128"
           ></v-icon>
 
-          <div class="text-h4 font-weight-bold">This receipt was sent</div>
+          <div class="text-h4 font-weight-bold">Sign-up successful!t</div>
         </div>
 
         <v-divider></v-divider>
