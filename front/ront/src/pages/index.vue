@@ -18,7 +18,7 @@
   </v-container>
 
 
-  <br> <br>  
+  <br> <br>
   <v-container class="hero-section py-5" fluid>
     <v-row align="center" justify="center" class="text-center">
       <v-col cols="12" md="8">
@@ -35,7 +35,13 @@
   </v-container>
 
     <!--Recenzije-->
-    <br> <br> 
+    <br> <br>
+  <h2 class="text-center rec-title">
+    Your Stories, Our Success: Experiences That Speak Louder Than Words
+
+  </h2><br><img src="https://cdn-icons-png.freepik.com/512/16861/16861957.png"
+                alt="Review Icon"
+                class="review-icon"><br>
   <v-carousel
     height="400"
     show-arrows="hover"
@@ -62,7 +68,7 @@
     </v-carousel-item>
   </v-carousel>
     <!--Statistika-->
-    <br><br><br><br>
+    <br><br>
   <div class="statistics-container">
     <div class="statistics">
       <div class="statistic">
@@ -94,7 +100,7 @@
       </div>
     </div>
   </div>
-    <br><br>
+    <br><br><br><br>
     <!--Vijesti-->
     <div>
       <h1 class="news-title">Tech Pulse: Real-Time Global News and Innovations</h1><br>
@@ -268,6 +274,23 @@
 
 }
 /*Recenzije*/
+.rec-title{
+  color: #efb968;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: italic;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 5px rgba(255, 255, 255, 0.6);
+  letter-spacing: 1px;
+}
+.review-icon {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: auto;
+
+}
 .testimonial-sheet {
   background: linear-gradient(90deg, #060e33 0%, #8450bc 100%);
 
