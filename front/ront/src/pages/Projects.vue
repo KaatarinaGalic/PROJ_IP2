@@ -1,17 +1,11 @@
 <template>
   <div>
-    <!-- Pretraživanje -->
-    <v-text-field
-      v-model="search"
-      prepend-icon="mdi-magnify"
-      label="Search"
-      class="mx-2"
-      full-width
-    ></v-text-field>
+    <h1 class="text-center my-4">Discover Exciting Freelance Projects</h1>
+
 
     <!-- Log In/Log Out Button -->
     <v-btn
-      :color="isLoggedIn ? 'green' : 'blue'"
+      :color="isLoggedIn ? 'green' : 'pink'"
       class="mx-2"
       @click="isLoggedIn ? handleLogout() : loginDialog = true"
       style="float: right;"
@@ -25,6 +19,14 @@
            v-if="isLoggedIn"
     >Change Password
     </v-btn>
+    <!-- Pretraživanje --><br><br><br><br>
+    <v-text-field
+      v-model="search"
+      prepend-icon="mdi-magnify"
+      label="Search"
+      class="mx-2"
+      full-width
+    ></v-text-field>
 
     <!-- Log In Dialog -->
     <v-dialog v-model="loginDialog" max-width="400" class="login-dialog">
